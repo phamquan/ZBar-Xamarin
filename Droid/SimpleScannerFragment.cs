@@ -16,6 +16,9 @@ namespace ZBarBindings.Example.Droid
 {
     public class SimpleScannerFragment : Fragment
     {
+
+        private ZBarScannerView mScannerView;
+
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);

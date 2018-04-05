@@ -14,7 +14,7 @@ using Android.Widget;
 namespace ZBarBindings.Example.Droid
 {
     [Activity(Label = "BaseScannerActivity")]
-    public class BaseScannerActivity : Activity
+    public class BaseScannerActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

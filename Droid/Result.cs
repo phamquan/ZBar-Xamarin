@@ -3,8 +3,7 @@ namespace ZBarBindings.Example.Droid
 {
     public class Result
     {
-        public Result()
-        {
-        }
+        public String Contents { get; set; }
+        public BarcodeFormat BarcodeFormat { get; set; }
     }
 }

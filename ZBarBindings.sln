@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBarBindings", "ZBarBindings\ZBarBindings.csproj", "{F53E46F7-753D-4D5E-BFC2-7C55DA6C662E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBarBindings.Example", "ZBarBindings.Example\ZBarBindings.Example.csproj", "{836B3609-FCC1-40C3-8E9B-C0B59F5C44D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBarBindings.Example.Droid", "Droid\ZBarBindings.Example.Droid.csproj", "{9255CE07-3CA9-4C33-B016-ADFF847D899B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,13 @@ Global
 		{F53E46F7-753D-4D5E-BFC2-7C55DA6C662E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F53E46F7-753D-4D5E-BFC2-7C55DA6C662E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F53E46F7-753D-4D5E-BFC2-7C55DA6C662E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836B3609-FCC1-40C3-8E9B-C0B59F5C44D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836B3609-FCC1-40C3-8E9B-C0B59F5C44D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836B3609-FCC1-40C3-8E9B-C0B59F5C44D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836B3609-FCC1-40C3-8E9B-C0B59F5C44D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9255CE07-3CA9-4C33-B016-ADFF847D899B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9255CE07-3CA9-4C33-B016-ADFF847D899B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9255CE07-3CA9-4C33-B016-ADFF847D899B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9255CE07-3CA9-4C33-B016-ADFF847D899B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

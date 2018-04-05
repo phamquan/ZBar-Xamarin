@@ -8,5 +8,12 @@ namespace ZBarBindings.Example
         {
             InitializeComponent();
         }
-    }
+
+		protected override void OnAppearing()
+		{
+            base.OnAppearing();
+
+
+		}
+	}
 }
