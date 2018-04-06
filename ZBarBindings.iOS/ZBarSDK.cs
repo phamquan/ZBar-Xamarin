@@ -1,10 +1,9 @@
 ﻿using System;
+using System.Runtime.InteropServices;
+
 namespace ZBarBindings.iOS
 {
-    public class ZBarSDK
+    public static partial class ZBarSDK
     {
-        public ZBarSDK()
-        {
-        }
     }
 }

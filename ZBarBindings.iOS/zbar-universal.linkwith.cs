@@ -7,4 +7,4 @@
 
 using ObjCRuntime;
 
-[assembly: LinkWith ("zbar-universal.a", SmartLink = true, ForceLoad = true)]
+[assembly: LinkWith ("zbar-universal.a", SmartLink = true, ForceLoad = true, Frameworks = "CoreGraphics AVFoundation CoreMedia CoreVideo QuartzCore", LinkerFlags = "-liconv")]
