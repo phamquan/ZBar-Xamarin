@@ -470,7 +470,7 @@ namespace ZBarBindings.iOS
     }
 
     // @interface ZBarReaderView : UIView
-    //[Protocol]
+    [Protocol]
     [BaseType(typeof(UIView))]
     interface ZBarReaderView
     {
