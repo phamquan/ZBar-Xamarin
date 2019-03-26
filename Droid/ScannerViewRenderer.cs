@@ -58,6 +58,13 @@ namespace ZBarBindings.Example.Droid
             mScannerView.setResultHandler(this);
             mScannerView.StartCamera();
 		}
+		
+	protected override void OnDetachedFromWindow()
+        {
+            base.OnDetachedFromWindow();
+
+            mScannerView.StopCamera();
+        }
 
 	}
 }
