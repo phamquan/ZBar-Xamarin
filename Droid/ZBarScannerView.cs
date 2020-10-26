@@ -85,6 +85,8 @@ namespace ZBarBindings.Example.Droid
             try
             {
                 Camera.Parameters parameters = camera.GetParameters();
+                parameters.FocusMode = Camera.Parameters.FocusModeContinuousPicture;
+
                 Camera.Size size = parameters.PreviewSize;
                 int width = size.Width;
                 int height = size.Height;
